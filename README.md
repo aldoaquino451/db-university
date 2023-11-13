@@ -1,11 +1,6 @@
 University
 ===
 
-Database di un università:
-
-![](university_diagram.svg)
-
-
 ## Quesiti
 
 ### Query con SELECT
@@ -30,3 +25,11 @@ laurea (286)
 
 ## Soluzioni 
 Nel file link [Solutions](./solutions.md)
+
+
+
+## Database 
+Database di un'università:
+
+![](./university_img.png)
+
