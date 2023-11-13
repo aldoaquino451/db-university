@@ -4,15 +4,15 @@
 
 - SELECT *        
   FROM `students`             
-  WHERE `date_of_birth` LIKE '1990%'        
+  WHERE YEAR(`date_of_birth`) = 1990        
 
 - SELECT *        
   FROM `courses`          
   WHERE `cfu`> 10   
 
-- SELECT *        
-  FROM `students`       
-  WHERE `date_of_birth` < '1993-11-13'  
+- SELECT *          
+  FROM `students`         
+  WHERE `date_of_birth` < DATE_SUB(CURRENT_DATE, INTERVAL 30 YEAR)    
 
 - SELECT *    
   FROM `courses`    
